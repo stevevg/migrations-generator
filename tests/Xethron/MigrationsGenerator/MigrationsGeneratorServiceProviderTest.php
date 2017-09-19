@@ -1,9 +1,9 @@
 <?php namespace Xethron\MigrationsGenerator;
 
 use Mockery;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class MigrationsGeneratorServiceProviderTest extends PHPUnit_Framework_TestCase {
+class MigrationsGeneratorServiceProviderTest extends TestCase {
   
   public function tearDown()
   {
